@@ -19,7 +19,8 @@ This was built in three layers, each exploring a different paradigm for connecti
 ### ChatGPT Custom GPT — Live in action
 > Typing natural language tasks directly into the Custom GPT. All four tasks (including a comment) were captured and saved in a single message.
 
-<img width="1431" height="907" alt="image" src="https://github.com/user-attachments/assets/423cb7a3-3bae-4bf5-ad62-fad2560536a5" />
+<img width="1431" height="907" alt="image" src="https://github.com/user-attachments/assets/fe9eb6f9-720a-4168-bc33-943e3a36e71b" />
+
 
 
 ### Notion Database — Auto-populated by the agent
