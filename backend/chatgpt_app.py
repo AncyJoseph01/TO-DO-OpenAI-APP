@@ -21,6 +21,7 @@ app = FastAPI(
     title="Second Brain — Notion Task Agent",
     description="Saves tasks and comments to a Notion database via ChatGPT Actions.",
     version="1.0.0",
+    servers=[{"url": "https://to-do-openai-app.onrender.com"}],
 )
 
 app.add_middleware(
