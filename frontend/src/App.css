@@ -1,0 +1,205 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background: #0f0f13;
+  color: #e2e8f0;
+  min-height: 100vh;
+}
+
+/* ── Layout ── */
+.app {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem;
+}
+
+.app-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2.5rem;
+}
+
+.header-icon {
+  font-size: 2.4rem;
+  line-height: 1;
+}
+
+.app-header h1 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  color: #fff;
+}
+
+.subtitle {
+  color: #64748b;
+  font-size: 0.85rem;
+  margin-top: 0.15rem;
+}
+
+.app-main {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.section-label {
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #64748b;
+  margin-bottom: 0.65rem;
+}
+
+/* ── Connection status ── */
+.status-card {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+  background: #1a1a24;
+  border: 1px solid #2d2d3d;
+  border-radius: 10px;
+  padding: 1rem 1.25rem;
+}
+
+.status-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.status-dot.connected {
+  background: #22c55e;
+  box-shadow: 0 0 8px #22c55e99;
+}
+
+.status-dot.disconnected {
+  background: #ef4444;
+  box-shadow: 0 0 8px #ef444499;
+}
+
+.status-label {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #e2e8f0;
+}
+
+.status-time {
+  font-size: 0.72rem;
+  color: #64748b;
+  margin-top: 0.2rem;
+}
+
+/* ── Task log ── */
+.log-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.empty-state {
+  color: #64748b;
+  font-size: 0.85rem;
+  padding: 1.5rem;
+  background: #1a1a24;
+  border: 1px dashed #2d2d3d;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 1.6;
+}
+
+.task-card {
+  background: #1a1a24;
+  border: 1px solid #2d2d3d;
+  border-radius: 10px;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.65rem;
+  transition: border-color 0.15s;
+}
+
+.task-card:hover {
+  border-color: #4a4a6a;
+}
+
+.task-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+.task-name {
+  font-weight: 500;
+  font-size: 0.9rem;
+  color: #f1f5f9;
+  line-height: 1.4;
+}
+
+/* ── Priority badge ── */
+.priority-badge {
+  font-size: 0.65rem;
+  font-weight: 700;
+  padding: 0.2rem 0.55rem;
+  border-radius: 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  flex-shrink: 0;
+}
+
+.priority-badge.high {
+  background: #450a0a;
+  color: #fca5a5;
+  border: 1px solid #7f1d1d;
+}
+
+.priority-badge.medium {
+  background: #431407;
+  color: #fdba74;
+  border: 1px solid #7c2d12;
+}
+
+.priority-badge.low {
+  background: #0c1a2e;
+  color: #93c5fd;
+  border: 1px solid #1e3a5f;
+}
+
+/* ── Tags ── */
+.task-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 0.6rem;
+}
+
+.tag {
+  font-size: 0.72rem;
+  background: #252535;
+  color: #94a3b8;
+  padding: 0.18rem 0.5rem;
+  border-radius: 4px;
+}
+
+.tag.muted {
+  color: #4b5563;
+}
+
+/* ── Notion link ── */
+.notion-link {
+  display: inline-block;
+  margin-top: 0.65rem;
+  font-size: 0.75rem;
+  color: #818cf8;
+  text-decoration: none;
+}
+
+.notion-link:hover {
+  text-decoration: underline;
+}
