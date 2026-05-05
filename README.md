@@ -19,17 +19,20 @@ This was built in three layers, each exploring a different paradigm for connecti
 ### ChatGPT Custom GPT — Live in action
 > Typing natural language tasks directly into the Custom GPT. All four tasks (including a comment) were captured and saved in a single message.
 
-![ChatGPT Second Brain in action](screenshots/chatgpt-demo.png)
+<img width="1431" height="907" alt="image" src="https://github.com/user-attachments/assets/423cb7a3-3bae-4bf5-ad62-fad2560536a5" />
+
 
 ### Notion Database — Auto-populated by the agent
 > Tasks appear in Notion with correct deadlines, priorities, categories, and emoji icons — all inferred from unstructured text.
 
-![Notion database populated by agent](screenshots/notion-database.png)
+<img width="1431" height="907" alt="image" src="https://github.com/user-attachments/assets/21d233b1-0a5e-4cf2-8142-2b43aa3b24c4" />
+
 
 ### Render Deployment — Live production server
 > The FastAPI backend deployed on Render, serving the ChatGPT Action endpoints publicly over HTTPS.
 
-![Render deployment live](screenshots/render-deployment.png)
+<img width="1431" height="907" alt="image" src="https://github.com/user-attachments/assets/ecc29b40-3b0a-42f9-a169-77e3dcbe0f1a" />
+
 
 ---
 
