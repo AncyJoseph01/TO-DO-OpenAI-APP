@@ -27,7 +27,8 @@ This was built in three layers, each exploring a different paradigm for connecti
 ### Notion Database — Auto-populated by the agent
 > Tasks appear in Notion with correct deadlines, priorities, categories, and emoji icons — all inferred from unstructured text.
 
-<img width="1431" height="907" alt="image" src="https://github.com/user-attachments/assets/21d233b1-0a5e-4cf2-8142-2b43aa3b24c4" />
+<img width="1431" height="907" alt="image" src="https://github.com/user-attachments/assets/27359cf0-d898-49c0-8902-10d1a650c286" />
+
 
 
 ### Render Deployment — Live production server
